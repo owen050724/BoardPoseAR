@@ -1,0 +1,5 @@
+﻿outputs/pose_frames/*.tmp
+__pycache__/
+*.pyc
+.venv/
+.venv*/

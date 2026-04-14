@@ -1,0 +1,230 @@
+{
+  "calibration": {
+    "mode": "python",
+    "source": "calibration_data.py"
+  },
+  "pattern": "10x7",
+  "square_size": 1.0,
+  "ar_text": "HELLO",
+  "attempted_frames_or_images": 11,
+  "detected_poses": 8,
+  "results": [
+    {
+      "source": "chessboard_000.png",
+      "detected": false,
+      "requested_pattern": "10x7",
+      "used_pattern": null,
+      "method": null,
+      "rvec": null,
+      "tvec": null,
+      "camera_position_board": null,
+      "output_file": "outputs\\pose_frames\\chessboard_000_pose.png"
+    },
+    {
+      "source": "chessboard_001.png",
+      "detected": false,
+      "requested_pattern": "10x7",
+      "used_pattern": null,
+      "method": null,
+      "rvec": null,
+      "tvec": null,
+      "camera_position_board": null,
+      "output_file": "outputs\\pose_frames\\chessboard_001_pose.png"
+    },
+    {
+      "source": "chessboard_002.png",
+      "detected": false,
+      "requested_pattern": "10x7",
+      "used_pattern": null,
+      "method": null,
+      "rvec": null,
+      "tvec": null,
+      "camera_position_board": null,
+      "output_file": "outputs\\pose_frames\\chessboard_002_pose.png"
+    },
+    {
+      "source": "chessboard_003.png",
+      "detected": true,
+      "requested_pattern": "10x7",
+      "used_pattern": "10x7",
+      "method": "findChessboardCornersSB:gray:scale=0.50",
+      "rvec": [
+        -0.5939408768619358,
+        -0.2761345515551101,
+        0.06031314376135065
+      ],
+      "tvec": [
+        -3.0547609434619005,
+        -2.894032054670805,
+        19.043006689897425
+      ],
+      "camera_position_board": [
+        -1.2302121070333196,
+        13.132237710818645,
+        -14.365723115280407
+      ],
+      "output_file": "outputs\\pose_frames\\chessboard_003_pose.png"
+    },
+    {
+      "source": "chessboard_004.png",
+      "detected": true,
+      "requested_pattern": "10x7",
+      "used_pattern": "10x7",
+      "method": "findChessboardCornersSB:gray:scale=0.50",
+      "rvec": [
+        -0.5862329440230704,
+        -0.2766738647334824,
+        0.0484688578202879
+      ],
+      "tvec": [
+        -3.316665863904192,
+        -3.1622419941995825,
+        18.943455680336612
+      ],
+      "camera_position_board": [
+        -1.03935353147257,
+        13.206229286396798,
+        -14.29579701406239
+      ],
+      "output_file": "outputs\\pose_frames\\chessboard_004_pose.png"
+    },
+    {
+      "source": "chessboard_005.png",
+      "detected": true,
+      "requested_pattern": "10x7",
+      "used_pattern": "10x7",
+      "method": "findChessboardCornersSB:gray:scale=0.50",
+      "rvec": [
+        -0.243046750352117,
+        0.009719519772415669,
+        -0.08599920884954372
+      ],
+      "tvec": [
+        -5.784831370695578,
+        -0.7950263959243121,
+        22.91326032818393
+      ],
+      "camera_position_board": [
+        5.676840885664936,
+        6.770887616563309,
+        -21.93267877545833
+      ],
+      "output_file": "outputs\\pose_frames\\chessboard_005_pose.png"
+    },
+    {
+      "source": "chessboard_006.png",
+      "detected": true,
+      "requested_pattern": "10x7",
+      "used_pattern": "10x7",
+      "method": "findChessboardCornersSB:gray:scale=0.50",
+      "rvec": [
+        -0.1987915031586897,
+        0.02916392943723439,
+        -0.024219690077101876
+      ],
+      "tvec": [
+        -4.172820285557351,
+        -2.930476711211039,
+        22.9175023960323
+      ],
+      "camera_position_board": [
+        4.699704013356322,
+        7.493072526603431,
+        -21.748073139029096
+      ],
+      "output_file": "outputs\\pose_frames\\chessboard_006_pose.png"
+    },
+    {
+      "source": "chessboard_007.png",
+      "detected": true,
+      "requested_pattern": "10x7",
+      "used_pattern": "10x7",
+      "method": "findChessboardCornersSB:gray:scale=0.50",
+      "rvec": [
+        -0.33260574941664217,
+        0.13875569109247954,
+        -0.025236717270850886
+      ],
+      "tvec": [
+        -5.855445906173966,
+        -2.890744515226188,
+        20.922066752425785
+      ],
+      "camera_position_board": [
+        8.413944199976813,
+        9.587240022554447,
+        -17.82318432702212
+      ],
+      "output_file": "outputs\\pose_frames\\chessboard_007_pose.png"
+    },
+    {
+      "source": "chessboard_008.png",
+      "detected": true,
+      "requested_pattern": "10x7",
+      "used_pattern": "10x7",
+      "method": "findChessboardCornersSB:gray:scale=0.50",
+      "rvec": [
+        -0.3396827033033245,
+        0.12808885791118746,
+        -0.006061434658559801
+      ],
+      "tvec": [
+        -5.5901768290267775,
+        -3.1345822047896426,
+        20.92207986719362
+      ],
+      "camera_position_board": [
+        8.058775134929009,
+        9.828304900404492,
+        -17.812065423665366
+      ],
+      "output_file": "outputs\\pose_frames\\chessboard_008_pose.png"
+    },
+    {
+      "source": "chessboard_009.png",
+      "detected": true,
+      "requested_pattern": "10x7",
+      "used_pattern": "10x7",
+      "method": "findChessboardCornersSB:gray:scale=0.50",
+      "rvec": [
+        -0.3414302980873433,
+        -0.2484849893632744,
+        0.11494688556239085
+      ],
+      "tvec": [
+        -3.493347427653483,
+        -3.631323237404046,
+        20.8282475712742
+      ],
+      "camera_position_board": [
+        -0.6893273565767977,
+        10.335680670267186,
+        -18.759115503478128
+      ],
+      "output_file": "outputs\\pose_frames\\chessboard_009_pose.png"
+    },
+    {
+      "source": "chessboard_010.png",
+      "detected": true,
+      "requested_pattern": "10x7",
+      "used_pattern": "10x7",
+      "method": "findChessboardCornersSB:gray:scale=0.50",
+      "rvec": [
+        -0.6038589807742839,
+        -0.03364346091121007,
+        -0.03747909853185998
+      ],
+      "tvec": [
+        -4.7707836896104965,
+        -2.7937283839975344,
+        18.87791093175165
+      ],
+      "camera_position_board": [
+        3.889896859957285,
+        13.216048067148595,
+        -14.040854402402577
+      ],
+      "output_file": "outputs\\pose_frames\\chessboard_010_pose.png"
+    }
+  ]
+}

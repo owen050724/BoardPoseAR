@@ -188,10 +188,6 @@ python pose_estimation.py --text LIVE --camera 0 --camera-width 640 --camera-hei
 - `tvec`: 체스보드 좌표계 기준 이동 벡터입니다.
 - `camera_position_board`: 체스보드 좌표계에서 계산한 카메라 위치입니다.
 
-## 참고 프로젝트와의 차이
-
-참고한 `Dancing-on-the-chessboard`는 GIF 프레임을 PNG로 변환한 뒤 체스보드 위에 오버레이하는 구조입니다. `BoardPoseAR`는 같은 OpenCV 기반 자세 추정 흐름을 사용하지만, 사용자 입력 텍스트를 즉석에서 생성해 AR 평면에 투영하고, 기본 캘리브레이션 값을 별도 `.npz` 파일이 아닌 파이썬 상수로 관리합니다.
-
 ## 한계점
 
 - `cv2.putText` 기반 텍스트 렌더링이므로 영문/숫자 입력을 권장합니다.

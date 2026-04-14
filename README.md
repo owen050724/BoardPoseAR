@@ -20,6 +20,12 @@
 
 결과 파일: [outputs/pose_demo_runtime.png](outputs/pose_demo_runtime.png), [outputs/pose_results_runtime.json](outputs/pose_results_runtime.json)
 
+### 웹캠 녹화 데모
+
+녹화 결과 파일: [outputs/pose_demo.avi](outputs/pose_demo.avi)
+
+참고: GitHub README에서 .avi 파일은 브라우저에 따라 바로 재생되지 않고 다운로드 링크로 열릴 수 있습니다.
+
 ## 핵심 기능
 
 - 체스보드 내부 코너 검출 (`10 x 7` 기준)
@@ -39,6 +45,7 @@
 - `data/captures/`: 포즈 추정 데모에 사용한 체스보드 입력 이미지입니다.
 - `outputs/pose_demo.png`: 기본 실행 결과 이미지입니다.
 - `outputs/pose_demo_runtime.png`: 런타임 캘리브레이션 모드 결과 이미지입니다.
+- `outputs/pose_demo.avi`: 웹캠 실행으로 저장한 AR 포즈 추정 데모 영상입니다.
 - `outputs/pose_frames/`: 입력 이미지별 포즈 추정 및 AR 시각화 결과입니다.
 - `outputs/pose_results.json`: 검출 여부, `rvec`, `tvec`, 카메라 위치 정보가 저장된 결과 파일입니다.
 - `requirements.txt`: 실행에 필요한 Python 패키지 목록입니다.
@@ -167,6 +174,7 @@ python pose_estimation.py --text LIVE --camera 0 --camera-width 640 --camera-hei
 
 - `outputs/pose_demo.png`: 기본 모드에서 생성한 대표 AR 결과 이미지입니다.
 - `outputs/pose_demo_runtime.png`: 런타임 캘리브레이션 모드에서 생성한 대표 AR 결과 이미지입니다.
+- `outputs/pose_demo.avi`: 웹캠 녹화 모드에서 생성한 AR 결과 영상입니다.
 - `outputs/pose_results.json`: 기본 모드의 자세 추정 결과입니다.
 - `outputs/pose_results_runtime.json`: 런타임 캘리브레이션 모드의 자세 추정 결과입니다.
 - `outputs/pose_frames/`: 입력 이미지별 결과 이미지가 저장됩니다.
